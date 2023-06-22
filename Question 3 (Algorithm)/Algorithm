@@ -1,0 +1,10 @@
+Read the two input numbers.
+Initialize variables to hold the sum and the carry value.
+Iterate through the digits of the numbers from right to left:
+	->Extract the last digit from each number.
+	->Add the digits along with the carry value.
+	->Calculate the new carry value.
+	->Append the resulting digit to the sum.
+If there is a remaining carry after the iteration, append it to the sum.
+Reverse the sum to obtain the final result.
+Output the sum of the numbers.
